@@ -10,7 +10,6 @@
         UIKeyboardImpl *impl = [%c(UIKeyboardImpl) activeInstance];
 
         delegate = impl.privateInputDelegate ?: impl.inputDelegate;
-        selectedtext = [delegate textInRange:[delegate selectedTextRange]];
         isLongPressed = [impl isLongPress];
 
         if (isLongPressed) {
