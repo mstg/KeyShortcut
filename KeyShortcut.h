@@ -28,7 +28,6 @@
 static BOOL isLongPressed = false;
 static UIPasteboard *pasteboard;
 static NSString *copiedtext;
-static NSString *selectedtext;
 static id delegate;
 static UITextRange *range;
 static NSString *textRange;
