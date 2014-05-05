@@ -1,6 +1,6 @@
 .DS_STORE
 .theos
-/*.deb
+*/*.deb
 obj
 _
 .tmp
