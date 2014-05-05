@@ -1,0 +1,11 @@
+Package: org.mustafaa.keyshortcut
+Name: KeyShortcut
+Version: 3.0
+Architecture: iphoneos-arm
+Description: Key shortcuts for text input
+Maintainer: switchpwn <mustiigezen@gmail.com>
+Author: switchpwn <mustiigezen@gmail.com>
+Depends: mobilesubstrate, firmware (>= 6.0)
+Section: Tweaks
+dev: switchpwn
+Homepage: http://mustafaa.org
