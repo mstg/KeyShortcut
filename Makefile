@@ -15,6 +15,3 @@ _THEOS_INTERNAL_PACKAGE_VERSION = 3.0
 
 after-install::
 	install.exec "killall -9 SpringBoard"
-
-release::
-	dpkg-deb -b $(THEOS_STAGING_DIR) "$(THEOS_BUILD_DIR)/$(THEOS_PACKAGE_NAME)_$(THEOS_PACKAGE_BASE_VERSION)$(if $(PACKAGE_BUILDNAME),"+"$(PACKAGE_BUILDNAME))_$(THEOS_PACKAGE_ARCH).deb"
