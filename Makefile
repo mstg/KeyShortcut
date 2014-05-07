@@ -1,5 +1,5 @@
 ARCHS = armv7 armv7s arm64
-TARGET = iphone:latest:7.0
+TARGET = :clang:latest:7.0
 THEOS_BUILD_DIR = debs
 
 include theos/makefiles/common.mk
