@@ -1,5 +1,5 @@
 /* Created by Mustafa Gezen on 23.04.2014 */
-#include "Keyshortcut.h"
+#include "KeyShortcut.h"
 
 %hook UIKeyboardLayoutStar
     - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
